@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Firstpage />
+    <Firstpage isGoal={false}/>
     <Car color="red"/>
     <div className='hello'>{myFirstElement}</div>
   </React.StrictMode>
